@@ -7,7 +7,7 @@ The Extension page on MediaWiki can be found [here](https://mediawiki.org/wiki/E
 # Usage
 
 Put the extension files inside a folder in the extensions directory called "SimpleMath", then add this line to the LocalSettings.php file:
-    require_once("$IP/extensions/SimpleMath/SimpleMath.php");
+<code>require_once("$IP/extensions/SimpleMath/SimpleMath.php");</code>
 
 # License
 

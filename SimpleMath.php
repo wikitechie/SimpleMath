@@ -15,9 +15,9 @@ function efMathRender( $input, $args, $parser, $frame )
 }
 
 //	Add extension information to Special:Version
-$wgExtensionCredits['other'][] = array(
+$wgExtensionCredits['parserhook']['SimpleMath'] = array(
 	'name' => 'SimpleMath',
-	'author' => "<a href='http://wikitechie.net/'>WikiTechie</a>",
-	'description' => "Render mathematical formulas between <math> ... </math> tags using <a href='http://www.codecogs.com/latex/eqneditor.php'>codecogs LaTeX eidtor</a>",
+	'author' => '[http://wikitechie.net/ WikiTechie]',
+	'description' => 'Render mathematical formulas between <nowiki><math> ... </math></nowiki> tags using [http://www.codecogs.com/latex/eqneditor.php codecogs LaTeX eidtor]',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:SimpleMath'
 	);
